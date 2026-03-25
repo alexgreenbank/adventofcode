@@ -27,5 +27,5 @@ I am also attempting to have all years complete in under 1s of execution time (p
 | 2022 | 0/50 | 0/50 | 0/50 | . |
 | 2023 | 0/50 | 0/50 | 0/50 | . |
 | 2024 | 0/50 | 0/50 | 0/50 | . |
-| 2025 | 0/24 | 0/24 | 0/24 | . |
+| 2025 | 0/24 | 2/24 | 0/24 | . |
 
