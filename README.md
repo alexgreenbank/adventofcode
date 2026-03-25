@@ -9,6 +9,8 @@ Note that the [AoC creator has asked that public repos of solutions do not conta
 
 I have got all 524 stars already but the code is in various private repos and in various states. I would like to upload clean solutions for all days in Golang, Perl and C.
 
+Depending on how busy I am in December I would first aim to get the stars using whatever language is most suitable. This would often be Perl. After that I can move on to creating a solution in one of the other languages (usually Golang next). The approach to solving the problem may change as I understand more about the problem or recognise the underlying "more optimal" algorithm.
+
 I am also attempting to have all years complete in under 1s of execution time (per year) if possible. These should be generic solutions (e.g. capable of solving any inputs that an AoC participant may receive) and not optimised for my specific input.
 
 ## Progress
