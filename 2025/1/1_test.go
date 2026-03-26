@@ -1,18 +1,18 @@
 package main
 
 import (
-	"testing"
 	"github.com/stretchr/testify/require"
+	"testing"
 )
 
 func Test_doMove(t *testing.T) {
 	var tests = []struct {
-		testName string
-		curr int
-		move string
+		testName     string
+		curr         int
+		move         string
 		expectedDial int
-		expectedP1 int
-		expectedP2 int
+		expectedP1   int
+		expectedP2   int
 	}{
 		// Simple cases
 		{"R1 from 50", 50, "R1", 51, 0, 0},

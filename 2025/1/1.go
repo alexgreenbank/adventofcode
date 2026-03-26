@@ -36,13 +36,13 @@ func doMove(curr int, move string) (int, int, int) {
 		log.Fatalf("Does not handle negative n values in input [%s]", move)
 	}
 	// We add on any multiples of 100 to the p2inc score
-	p2 += int(n/100)
+	p2 += int(n / 100)
 	// We can now strip n down to the range [0,99]
 	n %= 100
 	if move[0] == 'L' {
-		n = 0-n
+		n = 0 - n
 	}
-	if (curr > 0 && curr+n < 0) || (curr+n > 100 ) {
+	if (curr > 0 && curr+n < 0) || (curr+n > 100) {
 		// This move crosses over the 0 ticker
 		// We handle the case of it ending on 0 later
 		// We ignore the case of it starting on 0 and ending -ve as it hasn't passed 0 on this move
@@ -54,7 +54,7 @@ func doMove(curr int, move string) (int, int, int) {
 	// -147 % 100 = -147
 	// So we perform the modulus operation, add on 100 and perform it again
 	// This covers both positive and negative values of any magnitude
-	curr = ( ( curr % 100 ) + 100 ) % 100
+	curr = ((curr % 100) + 100) % 100
 	// fmt.Printf("AFTER [%s] dial = %d\n", str, curr)
 	if curr == 0 {
 		p1++
